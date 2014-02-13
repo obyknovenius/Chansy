@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58F50862D88843DFB4B33074 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E484835624E4B33B6790EAF /* libPods.a */; };
+		B73D5B0818A8084F00F6E308 /* CHDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B73D5B0718A8084F00F6E308 /* CHDataStore.m */; };
+		B73D5B0F18A80CCB00F6E308 /* CHAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B73D5B0E18A80CCB00F6E308 /* CHAPIClient.m */; };
 		B7A0B12018A6EACA00F64E0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A0B11F18A6EACA00F64E0D /* Foundation.framework */; };
 		B7A0B12218A6EACA00F64E0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A0B12118A6EACA00F64E0D /* CoreGraphics.framework */; };
 		B7A0B12418A6EACA00F64E0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A0B12318A6EACA00F64E0D /* UIKit.framework */; };
@@ -14,13 +17,23 @@
 		B7A0B12C18A6EACA00F64E0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B12B18A6EACA00F64E0D /* main.m */; };
 		B7A0B13018A6EACA00F64E0D /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B12F18A6EACA00F64E0D /* CHAppDelegate.m */; };
 		B7A0B13318A6EACA00F64E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A0B13118A6EACA00F64E0D /* Main.storyboard */; };
-		B7A0B13618A6EACA00F64E0D /* CHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B13518A6EACA00F64E0D /* CHViewController.m */; };
 		B7A0B13818A6EACA00F64E0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A0B13718A6EACA00F64E0D /* Images.xcassets */; };
 		B7A0B13F18A6EACA00F64E0D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A0B13E18A6EACA00F64E0D /* XCTest.framework */; };
 		B7A0B14018A6EACA00F64E0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A0B11F18A6EACA00F64E0D /* Foundation.framework */; };
 		B7A0B14118A6EACA00F64E0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A0B12318A6EACA00F64E0D /* UIKit.framework */; };
 		B7A0B14918A6EACA00F64E0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7A0B14718A6EACA00F64E0D /* InfoPlist.strings */; };
 		B7A0B14B18A6EACA00F64E0D /* ChansyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B14A18A6EACA00F64E0D /* ChansyTests.m */; };
+		B7A0B16C18A715C300F64E0D /* CHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B16818A715C300F64E0D /* CHLoginViewController.m */; };
+		B7A0B16D18A715C300F64E0D /* CHMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B16B18A715C300F64E0D /* CHMainNavigationController.m */; };
+		B7A0B17418A7288B00F64E0D /* CHEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B17318A7288B00F64E0D /* CHEditProfileViewController.m */; };
+		B7A0B17B18A72B8E00F64E0D /* CHNicknameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B17A18A72B8E00F64E0D /* CHNicknameCell.m */; };
+		B7A0B17E18A736CA00F64E0D /* CHDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B17D18A736CA00F64E0D /* CHDatePickerCell.m */; };
+		B7A0B18118A73DBF00F64E0D /* CHTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B18018A73DBF00F64E0D /* CHTextViewCell.m */; };
+		B7A0B19118A7555E00F64E0D /* CHPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B19018A7555E00F64E0D /* CHPlaceholderTextView.m */; };
+		B7A0B19518A7556900F64E0D /* CHLoginState.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B19418A7556900F64E0D /* CHLoginState.m */; };
+		B7A0B19818A7562C00F64E0D /* CHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B19718A7562C00F64E0D /* CHUser.m */; };
+		B7A0B19B18A7605200F64E0D /* CHForm.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B19A18A7605200F64E0D /* CHForm.m */; };
+		B7A0B19E18A7605E00F64E0D /* CHQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A0B19D18A7605E00F64E0D /* CHQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E2FC997FE7741B3938C928D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		5E484835624E4B33B6790EAF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B73D5B0618A8084F00F6E308 /* CHDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDataStore.h; sourceTree = "<group>"; };
+		B73D5B0718A8084F00F6E308 /* CHDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDataStore.m; sourceTree = "<group>"; };
+		B73D5B0D18A80CCB00F6E308 /* CHAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAPIClient.h; sourceTree = "<group>"; };
+		B73D5B0E18A80CCB00F6E308 /* CHAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAPIClient.m; sourceTree = "<group>"; };
 		B7A0B11C18A6EACA00F64E0D /* Chansy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chansy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A0B11F18A6EACA00F64E0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B7A0B12118A6EACA00F64E0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +64,34 @@
 		B7A0B12E18A6EACA00F64E0D /* CHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAppDelegate.h; sourceTree = "<group>"; };
 		B7A0B12F18A6EACA00F64E0D /* CHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAppDelegate.m; sourceTree = "<group>"; };
 		B7A0B13218A6EACA00F64E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B7A0B13418A6EACA00F64E0D /* CHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHViewController.h; sourceTree = "<group>"; };
-		B7A0B13518A6EACA00F64E0D /* CHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHViewController.m; sourceTree = "<group>"; };
 		B7A0B13718A6EACA00F64E0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B7A0B13D18A6EACA00F64E0D /* ChansyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChansyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A0B13E18A6EACA00F64E0D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B7A0B14618A6EACA00F64E0D /* ChansyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChansyTests-Info.plist"; sourceTree = "<group>"; };
 		B7A0B14818A6EACA00F64E0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7A0B14A18A6EACA00F64E0D /* ChansyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChansyTests.m; sourceTree = "<group>"; };
+		B7A0B16718A715C300F64E0D /* CHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginViewController.h; sourceTree = "<group>"; };
+		B7A0B16818A715C300F64E0D /* CHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginViewController.m; sourceTree = "<group>"; };
+		B7A0B16A18A715C300F64E0D /* CHMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMainNavigationController.h; sourceTree = "<group>"; };
+		B7A0B16B18A715C300F64E0D /* CHMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMainNavigationController.m; sourceTree = "<group>"; };
+		B7A0B17218A7288B00F64E0D /* CHEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHEditProfileViewController.h; sourceTree = "<group>"; };
+		B7A0B17318A7288B00F64E0D /* CHEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHEditProfileViewController.m; sourceTree = "<group>"; };
+		B7A0B17918A72B8E00F64E0D /* CHNicknameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHNicknameCell.h; sourceTree = "<group>"; };
+		B7A0B17A18A72B8E00F64E0D /* CHNicknameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHNicknameCell.m; sourceTree = "<group>"; };
+		B7A0B17C18A736CA00F64E0D /* CHDatePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDatePickerCell.h; sourceTree = "<group>"; };
+		B7A0B17D18A736CA00F64E0D /* CHDatePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDatePickerCell.m; sourceTree = "<group>"; };
+		B7A0B17F18A73DBF00F64E0D /* CHTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTextViewCell.h; sourceTree = "<group>"; };
+		B7A0B18018A73DBF00F64E0D /* CHTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTextViewCell.m; sourceTree = "<group>"; };
+		B7A0B18F18A7555E00F64E0D /* CHPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPlaceholderTextView.h; sourceTree = "<group>"; };
+		B7A0B19018A7555E00F64E0D /* CHPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPlaceholderTextView.m; sourceTree = "<group>"; };
+		B7A0B19318A7556900F64E0D /* CHLoginState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginState.h; sourceTree = "<group>"; };
+		B7A0B19418A7556900F64E0D /* CHLoginState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginState.m; sourceTree = "<group>"; };
+		B7A0B19618A7562C00F64E0D /* CHUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHUser.h; sourceTree = "<group>"; };
+		B7A0B19718A7562C00F64E0D /* CHUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHUser.m; sourceTree = "<group>"; };
+		B7A0B19918A7605200F64E0D /* CHForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHForm.h; sourceTree = "<group>"; };
+		B7A0B19A18A7605200F64E0D /* CHForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHForm.m; sourceTree = "<group>"; };
+		B7A0B19C18A7605E00F64E0D /* CHQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHQuery.h; sourceTree = "<group>"; };
+		B7A0B19D18A7605E00F64E0D /* CHQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHQuery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +102,7 @@
 				B7A0B12218A6EACA00F64E0D /* CoreGraphics.framework in Frameworks */,
 				B7A0B12418A6EACA00F64E0D /* UIKit.framework in Frameworks */,
 				B7A0B12018A6EACA00F64E0D /* Foundation.framework in Frameworks */,
+				58F50862D88843DFB4B33074 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B73D5B0C18A80CCB00F6E308 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				B73D5B0D18A80CCB00F6E308 /* CHAPIClient.h */,
+				B73D5B0E18A80CCB00F6E308 /* CHAPIClient.m */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
 		B7A0B11318A6EACA00F64E0D = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +135,7 @@
 				B7A0B14418A6EACA00F64E0D /* ChansyTests */,
 				B7A0B11E18A6EACA00F64E0D /* Frameworks */,
 				B7A0B11D18A6EACA00F64E0D /* Products */,
+				1E2FC997FE7741B3938C928D /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +155,7 @@
 				B7A0B12118A6EACA00F64E0D /* CoreGraphics.framework */,
 				B7A0B12318A6EACA00F64E0D /* UIKit.framework */,
 				B7A0B13E18A6EACA00F64E0D /* XCTest.framework */,
+				5E484835624E4B33B6790EAF /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +166,10 @@
 				B7A0B12E18A6EACA00F64E0D /* CHAppDelegate.h */,
 				B7A0B12F18A6EACA00F64E0D /* CHAppDelegate.m */,
 				B7A0B13118A6EACA00F64E0D /* Main.storyboard */,
-				B7A0B13418A6EACA00F64E0D /* CHViewController.h */,
-				B7A0B13518A6EACA00F64E0D /* CHViewController.m */,
+				B73D5B0C18A80CCB00F6E308 /* APIClient */,
+				B7A0B16518A715C300F64E0D /* Controllers */,
+				B7A0B18D18A7555E00F64E0D /* Views */,
+				B7A0B19218A7556900F64E0D /* Model */,
 				B7A0B13718A6EACA00F64E0D /* Images.xcassets */,
 				B7A0B12618A6EACA00F64E0D /* Supporting Files */,
 			);
@@ -152,6 +205,91 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B7A0B16518A715C300F64E0D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7A0B17118A7288B00F64E0D /* ProfileViewController */,
+				B7A0B16618A715C300F64E0D /* LoginViewController */,
+				B7A0B16918A715C300F64E0D /* MainNavigationController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B7A0B16618A715C300F64E0D /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B7A0B16718A715C300F64E0D /* CHLoginViewController.h */,
+				B7A0B16818A715C300F64E0D /* CHLoginViewController.m */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		B7A0B16918A715C300F64E0D /* MainNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				B7A0B16A18A715C300F64E0D /* CHMainNavigationController.h */,
+				B7A0B16B18A715C300F64E0D /* CHMainNavigationController.m */,
+			);
+			path = MainNavigationController;
+			sourceTree = "<group>";
+		};
+		B7A0B17118A7288B00F64E0D /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B7A0B17218A7288B00F64E0D /* CHEditProfileViewController.h */,
+				B7A0B17318A7288B00F64E0D /* CHEditProfileViewController.m */,
+				B7A0B17818A72B8E00F64E0D /* Cells */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		B7A0B17818A72B8E00F64E0D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B7A0B17918A72B8E00F64E0D /* CHNicknameCell.h */,
+				B7A0B17A18A72B8E00F64E0D /* CHNicknameCell.m */,
+				B7A0B17C18A736CA00F64E0D /* CHDatePickerCell.h */,
+				B7A0B17D18A736CA00F64E0D /* CHDatePickerCell.m */,
+				B7A0B17F18A73DBF00F64E0D /* CHTextViewCell.h */,
+				B7A0B18018A73DBF00F64E0D /* CHTextViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B7A0B18D18A7555E00F64E0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7A0B18E18A7555E00F64E0D /* CHPlacehoderTextView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7A0B18E18A7555E00F64E0D /* CHPlacehoderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				B7A0B18F18A7555E00F64E0D /* CHPlaceholderTextView.h */,
+				B7A0B19018A7555E00F64E0D /* CHPlaceholderTextView.m */,
+			);
+			path = CHPlacehoderTextView;
+			sourceTree = "<group>";
+		};
+		B7A0B19218A7556900F64E0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B73D5B0618A8084F00F6E308 /* CHDataStore.h */,
+				B73D5B0718A8084F00F6E308 /* CHDataStore.m */,
+				B7A0B19318A7556900F64E0D /* CHLoginState.h */,
+				B7A0B19418A7556900F64E0D /* CHLoginState.m */,
+				B7A0B19618A7562C00F64E0D /* CHUser.h */,
+				B7A0B19718A7562C00F64E0D /* CHUser.m */,
+				B7A0B19918A7605200F64E0D /* CHForm.h */,
+				B7A0B19A18A7605200F64E0D /* CHForm.m */,
+				B7A0B19C18A7605E00F64E0D /* CHQuery.h */,
+				B7A0B19D18A7605E00F64E0D /* CHQuery.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7A0B14E18A6EACA00F64E0D /* Build configuration list for PBXNativeTarget "Chansy" */;
 			buildPhases = (
+				161D8A5A2A0C452BB707054F /* Check Pods Manifest.lock */,
 				B7A0B11818A6EACA00F64E0D /* Sources */,
 				B7A0B11918A6EACA00F64E0D /* Frameworks */,
 				B7A0B11A18A6EACA00F64E0D /* Resources */,
+				8589AC04D7AF443199958DA8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,14 +385,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		161D8A5A2A0C452BB707054F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8589AC04D7AF443199958DA8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7A0B11818A6EACA00F64E0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B7A0B12C18A6EACA00F64E0D /* main.m in Sources */,
+				B7A0B19E18A7605E00F64E0D /* CHQuery.m in Sources */,
 				B7A0B13018A6EACA00F64E0D /* CHAppDelegate.m in Sources */,
-				B7A0B13618A6EACA00F64E0D /* CHViewController.m in Sources */,
+				B7A0B19818A7562C00F64E0D /* CHUser.m in Sources */,
+				B7A0B17E18A736CA00F64E0D /* CHDatePickerCell.m in Sources */,
+				B73D5B0F18A80CCB00F6E308 /* CHAPIClient.m in Sources */,
+				B7A0B17B18A72B8E00F64E0D /* CHNicknameCell.m in Sources */,
+				B7A0B19518A7556900F64E0D /* CHLoginState.m in Sources */,
+				B7A0B16C18A715C300F64E0D /* CHLoginViewController.m in Sources */,
+				B7A0B19118A7555E00F64E0D /* CHPlaceholderTextView.m in Sources */,
+				B7A0B16D18A715C300F64E0D /* CHMainNavigationController.m in Sources */,
+				B73D5B0818A8084F00F6E308 /* CHDataStore.m in Sources */,
+				B7A0B18118A73DBF00F64E0D /* CHTextViewCell.m in Sources */,
+				B7A0B19B18A7605200F64E0D /* CHForm.m in Sources */,
+				B7A0B17418A7288B00F64E0D /* CHEditProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +561,7 @@
 		};
 		B7A0B14F18A6EACA00F64E0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2FC997FE7741B3938C928D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +575,7 @@
 		};
 		B7A0B15018A6EACA00F64E0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2FC997FE7741B3938C928D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +648,7 @@
 				B7A0B15018A6EACA00F64E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7A0B15118A6EACA00F64E0D /* Build configuration list for PBXNativeTarget "ChansyTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +657,7 @@
 				B7A0B15318A6EACA00F64E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
